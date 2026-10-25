@@ -361,10 +361,10 @@
   "workspaceSettings": {
     "modid": "mapengine",
     "modName": "MapEngine",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "A simlpe mod for my maps. Created for personal use, but if you want you can check out the github repository and play with it. There’s documentation there.  ",
     "author": "ghhggg123456",
-    "websiteURL": "https://amogus.com",
+    "websiteURL": "https://github.com/ghhggg123456/MapEngine",
     "license": "MIT License",
     "serverSideOnly": false,
     "modPicture": "logo",
