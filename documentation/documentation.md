@@ -1,6 +1,6 @@
 # MapEngine documentation
 
-I too lazy to write documentation or create images right now. Maybe later.
+I too lazy to write documentation or create images right now. Maybe later. 
 
 ## /shader command
 Server-side command for adding shader to viewport of selected player
@@ -40,4 +40,3 @@ Server-side command to edit interface elements: air, armor, food, health, experi
 /interface <targets> <element> reset
 ```
 
-im in discord: ghhggg123456.

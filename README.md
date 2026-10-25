@@ -3,3 +3,6 @@ A minecraft mod that adds commands I found myself needing for building maps. I w
 
 
 ![logo](./documentation/evangelion.png)
+
+
+![documentation](./documentation/documentation.md)
