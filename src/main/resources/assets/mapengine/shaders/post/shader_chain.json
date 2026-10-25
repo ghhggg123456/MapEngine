@@ -1,0 +1,38 @@
+{
+    "targets": [ "swapA", "swapB", "prevFrame" ],
+    "passes": [
+        {
+            "name": "mapengine:box_blur",
+            "intarget": "minecraft:main",
+            "outtarget": "swapA",
+            "use_linear_filter": true,
+            "uniforms": [ { "name": "BlurDir", "values": [ 1.0, 0.0 ] } ]
+        },
+        {
+            "name": "mapengine:box_blur",
+            "intarget": "swapA",
+            "outtarget": "swapB",
+            "use_linear_filter": true,
+            "uniforms": [ { "name": "BlurDir", "values": [ 0.0, 1.0 ] } ]
+        },
+        {
+            "name": "mapengine:effects",
+            "intarget": "minecraft:main",
+            "outtarget": "swapA",
+            "auxtargets": [
+                { "name": "BlurSampler", "id": "swapB" },
+                { "name": "PrevFrameSampler", "id": "prevFrame" }
+            ]
+        },
+        {
+            "name": "minecraft:blit",
+            "intarget": "swapA",
+            "outtarget": "prevFrame"
+        },
+        {
+            "name": "minecraft:blit",
+            "intarget": "swapA",
+            "outtarget": "minecraft:main"
+        }
+    ]
+}

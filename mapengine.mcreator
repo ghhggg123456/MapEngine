@@ -1,0 +1,380 @@
+{
+  "mod_elements": [
+    {
+      "name": "TooltipColors",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tooltip_colors",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/TooltipColors.java"
+        ]
+      },
+      "path": "~/Tooltip"
+    },
+    {
+      "name": "TooltipColorsPayload",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tooltip_colors_payload",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/TooltipColorsPayload.java"
+        ]
+      },
+      "path": "~/Tooltip"
+    },
+    {
+      "name": "TooltipCommand",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tooltip_command",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/TooltipCommand.java"
+        ]
+      },
+      "path": "~/Tooltip"
+    },
+    {
+      "name": "TooltipColorHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tooltip_color_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/TooltipColorHandler.java"
+        ]
+      },
+      "path": "~/Tooltip"
+    },
+    {
+      "name": "TooltipColorStore",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tooltip_color_store",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/TooltipColorStore.java"
+        ]
+      },
+      "path": "~/Tooltip"
+    },
+    {
+      "name": "MapEngineNetwork",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "map_engine_network",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/MapEngineNetwork.java"
+        ]
+      }
+    },
+    {
+      "name": "RecipeBookComponent",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "recipe_book_component",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/mixin/RecipeBookComponentMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "ShaderStateStore",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shader_state_store",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/ShaderStateStore.java"
+        ]
+      },
+      "path": "~/Shader"
+    },
+    {
+      "name": "ShaderPayload",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shader_payload",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/ShaderPayload.java"
+        ]
+      },
+      "path": "~/Shader"
+    },
+    {
+      "name": "ShaderCommand",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shader_command",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/ShaderCommand.java"
+        ]
+      },
+      "path": "~/Shader"
+    },
+    {
+      "name": "ShaderState",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shader_state",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/ShaderState.java"
+        ]
+      },
+      "path": "~/Shader"
+    },
+    {
+      "name": "ShaderGuard",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shader_guard",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/ShaderGuard.java"
+        ]
+      },
+      "path": "~/Shader"
+    },
+    {
+      "name": "InterfaceElement",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "interface_element",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/InterfaceElement.java"
+        ]
+      }
+    },
+    {
+      "name": "InterfaceState",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "interface_state",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/InterfaceState.java"
+        ]
+      }
+    },
+    {
+      "name": "InterfaceStateStore",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "interface_state_store",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/InterfaceStateStore.java"
+        ]
+      }
+    },
+    {
+      "name": "InterfaceStatePayload",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "interface_state_payload",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/InterfaceStatePayload.java"
+        ]
+      }
+    },
+    {
+      "name": "InterfaceCommand",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "interface_command",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/InterfaceCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "InterfaceHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "interface_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/InterfaceHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "GuiExperienceLevel",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gui_experience_level",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/mixin/GuiExperienceLevelMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "ToastMixin",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "toast_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/mixin/ToastMixinMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "Toast",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "toast",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/mixin/ToastMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "RecipeBookHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "recipe_book_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/RecipeBookHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "Chat",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "chat",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/mixin/ChatMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "Hand",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hand",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/mixin/HandMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "ItemNameEventHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "item_name_event_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghhggg123456/mapengine/ItemNameEventHandler.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Red",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Upper",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/io/github/ghhggg123456/mapengine/network/MapengineModVariables.java",
+      "src/main/java/io/github/ghhggg123456/mapengine/MapengineMod.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/mapengine.mixins.json",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Tooltip",
+        "children": []
+      },
+      {
+        "name": "Shader",
+        "children": []
+      },
+      {
+        "name": "Interface",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "mapengine",
+    "modName": "MapEngine",
+    "version": "0.0.0",
+    "description": "A simlpe mod for my maps. Created for personal use, but if you want you can check out the github repository and play with it. There’s documentation there.  ",
+    "author": "ghhggg123456",
+    "websiteURL": "https://amogus.com",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "made by Shawn (ghhggg123456)",
+    "modElementsPackage": "io.github.ghhggg123456.mapengine"
+  },
+  "mcreatorVersion": 202600233518
+}

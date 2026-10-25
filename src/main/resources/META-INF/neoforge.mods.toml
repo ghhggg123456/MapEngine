@@ -1,0 +1,42 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT License"
+
+[[mods]]
+modId="mapengine"
+version="0.0.0"
+displayName="MapEngine"
+displayURL="https://amogus.com"
+logoFile="logo.png"
+credits="absolute modding"
+authors="ghhggg123456"
+description="A simlpe mod for my maps. "
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[mixins]]
+    config = "mapengine.mixins.json"
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.mapengine]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.232,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.mapengine]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

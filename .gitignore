@@ -1,0 +1,10 @@
+.gradle/
+.eclipse/
+.mcreator/
+
+build/
+run/
+out/
+
+*.iml
+*.log

@@ -1,0 +1,34 @@
+{
+    "blend": { "func": "add", "srcrgb": "one", "dstrgb": "zero" },
+    "vertex": "mapengine:fullscreen",
+    "fragment": "mapengine:effects",
+    "attributes": [ "Position" ],
+    "samplers": [
+        { "name": "DiffuseSampler" },
+        { "name": "BlurSampler" },
+        { "name": "PrevFrameSampler" }
+    ],
+    "uniforms": [
+        { "name": "ProjMat",        "type": "matrix4x4", "count": 16, "values": [ 1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1 ] },
+        { "name": "OutSize",        "type": "float",     "count": 2,  "values": [ 1.0, 1.0 ] },
+        { "name": "GameTime",       "type": "float",     "count": 1,  "values": [ 0.0 ] },
+        { "name": "PixelSize",      "type": "float",     "count": 1,  "values": [ 1.0 ] },
+        { "name": "TintColor",      "type": "float",     "count": 3,  "values": [ 1.0, 1.0, 1.0 ] },
+        { "name": "Saturation",     "type": "float",     "count": 3,  "values": [ 1.0, 1.0, 1.0 ] },
+        { "name": "Hue",            "type": "float",     "count": 1,  "values": [ 0.0 ] },
+        { "name": "Contrast",       "type": "float",     "count": 1,  "values": [ 1.0 ] },
+        { "name": "Brightness",     "type": "float",     "count": 1,  "values": [ 1.0 ] },
+        { "name": "Posterize",      "type": "float",     "count": 1,  "values": [ 0.0 ] },
+        { "name": "NoiseSize",      "type": "float",     "count": 1,  "values": [ 0.0 ] },
+        { "name": "NoiseRate",      "type": "float",     "count": 1,  "values": [ 0.0 ] },
+        { "name": "Chromatic",      "type": "float",     "count": 1,  "values": [ 0.0 ] },
+        { "name": "Blur",           "type": "float",     "count": 1,  "values": [ 0.0 ] },
+        { "name": "MotionStrength", "type": "float",     "count": 1,  "values": [ 0.0 ] },
+        { "name": "MotionX",        "type": "float",     "count": 1,  "values": [ 0.0 ] },
+        { "name": "MotionY",        "type": "float",     "count": 1,  "values": [ 0.0 ] },
+        { "name": "VignetteColor",  "type": "float",     "count": 3,  "values": [ 0.0, 0.0, 0.0 ] },
+        { "name": "VignetteSize",   "type": "float",     "count": 1,  "values": [ 0.0 ] },
+        { "name": "OutlineColor",   "type": "float",     "count": 3,  "values": [ 1.0, 0.0, 0.0 ] },
+        { "name": "OutlineSize",    "type": "float",     "count": 1,  "values": [ 0.0 ] }
+    ]
+}

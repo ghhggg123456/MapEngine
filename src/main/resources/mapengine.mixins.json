@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "io.github.ghhggg123456.mapengine.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "RecipeBookComponentMixin",
+    "GuiExperienceLevelMixin",
+    "ToastMixinMixin",
+    "ToastMixin",
+    "ChatMixin",
+    "HandMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8.4"
+}
